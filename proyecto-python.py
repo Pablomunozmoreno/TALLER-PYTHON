@@ -1,4 +1,4 @@
-import streamlit as st
+iajeimport streamlit as st
 import json
 import requests
 from datetime import datetime, timedelta
@@ -27,8 +27,8 @@ st.title('Clima por Horas Durante el Viaje')
 
 # Entrada de usuario
 ciudad = st.text_input("Introduce la ciudad de tu viaje:")
-fecha_inicio = st.date_input("Selecciona la fecha de inicio:", datetime.now())
-fecha_fin = st.date_input("Selecciona la fecha de fin:", datetime.now() + timedelta(days=5))
+fecha_inicio = st.date_input("Selecciona la fecha de inicio de viaje:", datetime.now())
+fecha_fin = st.date_input("Selecciona la fecha de fin de viaje:", datetime.now() + timedelta(days=5))
 
 # Función para obtener el clima
 def obtener_clima(ciudad, fecha_inicio, fecha_fin):
