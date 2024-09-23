@@ -20,3 +20,5 @@ Si no hay datos disponibles para un día en particular, se muestra un mensaje in
   - Manejo de Errores:
     
 Si la API no puede devolver la información para una ciudad dada, se muestra un mensaje de error.
+
+(La clave de la API es personal e intransferible, de manera que cada usuario debe solicitar su propia clave)
